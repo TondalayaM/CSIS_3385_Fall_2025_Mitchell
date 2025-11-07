@@ -1,0 +1,10 @@
+Tondalaya Mitchell						
+Date: 11-7-2025
+Reflection
+
+The most important changes was making sure I use <fieldset> ,<legend> and placeholders.This made everything a lot cleaner, organized and helped me understand the different groups because it was easier to read. Another important change , which is also an addressed security issue was changing the method from DELETE to POST . I honestly kept forgetting this major step, which is why my code wasn't working for 2 days. I also added "required". This change makes sure that all fields are fully complete. I also learned that the method can never be Delete because the browser doesn't understand it. The only acceptable method would be GET or POST for HTML.If this was live production, I would research more security codes to make sure that the form is fully safe like making sure its protected from bots by using CAPTACHA or email verification. I could also enable HTTPS.
+
+NO AI Allowed Clause (Required):
+
+I, Tondalaya Mitchell , affirm that all work submitted in this case study is my own. I have not used AI tools, AI-generated text, or AI-based writing assistants (such as ChatGPT, Gemini, Grammarly AI, etc.) in the creation of this assignment. I understand that using AI tools for this project violates the spirit of ethical learning and may result in academic consequences.
+Signed: Tondalaya Mitchell 				Date: 11/7/2025

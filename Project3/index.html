@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Submit User Info</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Create User</h2>
+
+    <form action="/inventory/search" method="POST">
+	<fieldset>
+	<legend> Login Info </legend>
+	<label for="username">Username:</label>
+   <input type="text"
+       id="username"
+       name="username"
+       pattern="[A-Za-z0-9]{1,20}"
+       maxlength="20"
+       placeholder="Enter Username Here"
+       autocomplete="username"
+       required />
+
+        <label for="password">Password (8 or more characters):</label>
+     <input type="password"
+       id="password"
+       name="password"
+       pattern="[A-Za-z0-9]{8,40}"
+       placeholder="Enter Password Here"
+       title="Password must be 8–40 letters or numbers only"
+      autocomplete="on"
+       required />
+	</fieldset>
+
+	<fieldset>
+	<legend>Verification Info</legend>
+        <label for="age">Age:</label>
+        <input type="number"
+		id="age"
+		name="age"
+		min="1"
+		max="130"
+		placeholder="Enter Age Here"
+		required />
+	
+        <label for="email">Email:</label>
+            <input type="email"
+       id="email"
+       name="email"
+       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+       placeholder="Enter Email Here"
+       autocomplete="email"
+       required />
+	</fieldset>
+
+<fieldset>
+    <legend>Message</legend>
+    <label for="message">Message (10 words or less):</label>
+    <textarea
+        id="message"
+        name="message"
+        placeholder="Enter your message"
+        maxlength="80"
+        required></textarea>
+</fieldset>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
